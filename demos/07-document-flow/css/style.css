@@ -1,0 +1,19 @@
+.narrow {
+    width: 200px;
+    display: inline-block;
+    background-color: lightseagreen;
+}
+.narrow1 {
+    width: 300px;
+    display: inline;
+    background-color: darkgoldenrod;
+    
+}
+.paragraph {
+    background-color:red
+}
+
+
+
+
+

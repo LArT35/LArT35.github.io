@@ -1,6 +1,7 @@
 /* Drill 1 - Write your code solution below */
 #d1-div1{
     border: solid;
+    padding: 50px;
 }
 /* Drill 2 - Write your code solution below */
 #d2-p1 {
@@ -19,12 +20,12 @@
 
 
 /* Drill 4 - Write your code solution below */
-.d4-div {
-    display: block;
+
+#d4-navbar {
     background-color: orange;
+    
 
 }
-
 /* Drill 5 - Write your code solution below */
 .d5-div {
     margin-right: 65px;   
@@ -47,12 +48,12 @@
     background-color: lightskyblue;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    border-top-left-radius: 30px;
+    border-top-left-radius: 40px;
 }
 
 /* Drill 7 - Write your code solution below */
 #d7-img-1 {
-    border-top-right-radius: 70px;
+    border-top-right-radius: 70px 60px;
     border-bottom-left-radius: 70px;
 }
 #d7-img-2 {

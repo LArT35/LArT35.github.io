@@ -1,10 +1,20 @@
+.first-row {
+    background-color:lightblue;
+    text-align: center;
+    padding: 48px;
+}
 
+.second-column {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 20px;
+}
 
-
-
-
-
-
+.third-block {
+    background-color: lightyellow;
+    text-align: center;
+    padding: 48px;
+}
 
 
 

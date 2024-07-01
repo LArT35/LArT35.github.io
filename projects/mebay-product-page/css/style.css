@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#column-1 {
+   
+}
+
+#column-2 {
+    display: grid;
+    background-color: lightblue;
+    margin-block: 100px;
+}
+
+#column-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: brown;
+    margin-block:100px;
+    
+}
+

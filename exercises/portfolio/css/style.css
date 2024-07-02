@@ -11,7 +11,7 @@ body {
     background-image: url("../images/Crying\ Out.png");
     height: 100vh;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -47,8 +47,8 @@ body {
     
     grid-auto-rows: 200px; 
 
-    padding: 48px;
-    border: 10px solid #333333;
+    padding: 8px;
+    border: 12px solid darkblue;
 }
 
 

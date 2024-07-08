@@ -6,6 +6,19 @@ body {
     margin: 0px;
     font-family: sans-serif; 
 }
+#hero {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+}
  
 #two-columns {
     display: flex;
@@ -17,16 +30,16 @@ body {
 }
 
 #column-1 {
-    background-color: lightgreen;
+    background-color: rgb(46, 49, 46);
 }
 
 #column-2 {
-    background-color: #37d37b;
+    background-color: #282b2a;
 }
 
 #layout {
-    background-color: darkolivegreen;
-    color: blue;
+    background-color: rgb(41, 44, 34);
+    color: rgb(255, 255, 255);
     max-width: 800px;
     margin: 48px auto;
     text-align: center;
@@ -61,8 +74,8 @@ body {
 }
 
 #card-section {
-    background-color:lightseagreen;
-    color: #bfefff;
+    background-color:rgb(64, 87, 85);
+    color: #f8f8f8;
     padding: 48px;
 }
 
@@ -73,7 +86,7 @@ body {
 
 .card {
     flex: 1;
-    border: 3px solid #bfefff;
+    border: 3px solid grey;
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -93,8 +106,8 @@ body {
     background-color: red;
     color: white;
     border-radius: 36px;
-    padding: 12px 12px;
-    font-size: 16px;
+    padding: 8px 8px;
+    font-size: 12px;
     font-weight: bold;
     min-width: 150px;
 }

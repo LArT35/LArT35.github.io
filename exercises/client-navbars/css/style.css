@@ -1,24 +1,4 @@
 
-* { 
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0px;
-    font-family: sans-serif;
-}
-
-#navbar1 {
-    background: linear-gradient(to bottom,blue, lightblue);
-    display: flex;
-}
-
-#navbar1 a {
-    text-decoration: none;
-    color: white;
-    padding: 24px;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -28,13 +8,78 @@ body {
     font-family: sans-serif;
 }
 
-#navbar2 {
-    background: linear-gradient(to bottom,blue, lightblue);
-    display: flex;
+
+#header {
+    position: sticky;
+    top: 0px;
 }
 
-#navbar2 a {
+.content-column {
+    width: 800px;
+    margin: 0px auto;
+}
+
+#navbar-top {
+    background: linear-gradient(to bottom, rgb(236, 135, 4), #864902);
+}
+
+#navbar-top .content-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+#navbar-top a {
     text-decoration: none;
     color: white;
+    padding: 24px 0px;
+}
+
+#navbar-top .content-column div a {
     padding: 24px;
+} 
+
+#navbar-top .cta-buttom {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 36px;
+    padding: 12px 24px;
+    font-weight: bold;
+    min-width: 10px;
+    text-align: center;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom, rgb(167, 164, 5), olive);
+}
+
+#navbar-bottom .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0px;
+}
+
+#navbar-bottom1 {
+    background: linear-gradient(to bottom, rgb(241, 137, 0), rgb(110, 67, 3));
+}
+
+#navbar-bottom1 .content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom1 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 0px;
+}
+
+#navbar a {
+    
+
 }

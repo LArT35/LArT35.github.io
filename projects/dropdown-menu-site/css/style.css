@@ -7,6 +7,17 @@ body {
     font-family: sans-serif;
 }
 
+#hero {
+    background-image: url("../images/puppy\ paw\ print.avif");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 #navbar {
     background: linear-gradient(to bottom, #e48901, #533701);
     display: flex;

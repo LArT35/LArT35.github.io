@@ -7,6 +7,19 @@ body {
     font-family: sans-serif;
 }
 
+#hero {
+    background-image: url(../images/variety\ of\ foods.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ 
+
 #navbar {
     background: linear-gradient(to bottom, #231F20,#64672c );
     display: flex;
@@ -29,18 +42,25 @@ body {
     margin-right: auto;
 }
 
+
 #two-columns {
     background-color: #64672c;
     width: 800px;
-    margin: 48px auto;
-    font-size: 24px;
+    margin: 72px auto;
+    font-size: 12px;
     height: 200vh;
-    text-align: center;
-    padding: 24px;
+    text-align: justify;
+    padding: 72px;
 }
 
-# img {
-    width: 300px;
+#two-columns .cta-button {
+    color: white;
+    background-color: rgb(59, 50, 8);
+    
+}
+
+#two-columns img {
+    width: 200px;
 }
 
 #header {
@@ -57,22 +77,33 @@ body {
 #navbar-bottom a {
     text-decoration: none;
     color: white;
-    padding: 36px 48px;
+    padding: 24px 48px;
 }
 
 #footer {
     background: linear-gradient(to bottom, #231F20,#64672c);
     color: white;
-    padding: 24px;
+    padding: 48px;
 }
 
 #footer-columns-navbar {
     width: 800px;
     margin: 0px right;
-    padding: 48px 0px;
+    padding: 36px 0px;
     display: flex;
     justify-content: space-between;
     text-align: left;
+}
+
+.cropped-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    border: 10px solid #333333;
+}
+
+.cropped-grid-gallery img {
+    width: 100%;
 }
 
 

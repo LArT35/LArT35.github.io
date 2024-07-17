@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+
+.light-container {
+    text-align: center;
+    background-color: #0a2c6b;
+    color: white;
+    padding: 36px 0px;
+}
+
+.dark-container {
+    text-align: center;
+    background-color: #676828;
+    color: white;
+    padding: 36px 0px;
+}
+
+.side-by-side {
+    display: inline-block;
+    width: 49%;
+}
+
+.side-by-side a {
+    background-color: rgb(2, 1, 73);
+    color: rgb(255, 255, 255);
+}
+
+.side-by-side img {
+    padding-left: 12px;
+    width: 75%;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+
+    .light-container {
+        font-size: 32px;
+    }
+
+    .intro {
+        gap: 24px;
+    }
+
+    .dark-container {
+        height: 300px;
+    }
+}

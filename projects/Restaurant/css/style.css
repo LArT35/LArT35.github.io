@@ -72,7 +72,7 @@ body {
 #navbar-bottom {
     background: linear-gradient(to bottom, #231F20,#64672c );
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 #navbar-bottom a {
